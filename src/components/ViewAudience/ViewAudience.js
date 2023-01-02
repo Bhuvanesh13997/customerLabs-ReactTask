@@ -15,7 +15,7 @@ function ViewAudience() {
     const [formData, setFormData] = useState({"segment_name":"","schema":[]});
     
     
-    const [show, setShowCanvas] = useState(true);
+    const [show, setShowCanvas] = useState(false);
     const CloseCanvas = () => setShowCanvas(false);
     const OpenCanvas = () => setShowCanvas(true);
 
