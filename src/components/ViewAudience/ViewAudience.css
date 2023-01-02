@@ -1,0 +1,126 @@
+.NavigationBar{
+    background-color: #39aebc;
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.NavigationBar .icon_leftArrow{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.ViewAudience .content{
+    padding: 20px;
+}
+.SaveSegment .offcanvas-body{
+    position: relative;
+}
+.selectedSchemaList{
+    border: 2px solid #a8cae9;
+    padding: 0 10px;
+}
+.addNewSchema{
+    border: 2px solid transparent;
+    padding: 0 10px;
+}
+.SaveSegment .offcanvas-body .button_panel{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f6f6f6;
+    padding: 20px;
+}
+
+
+/*All Inputs*/
+
+input,select{
+    border-radius: 2px !important;
+}
+
+.coloredDotArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 10%;
+}
+.inputArea{
+    padding: 0;
+    width: 75%;
+}
+.buttonArea{
+    padding: 0;
+    width: 15%;
+}
+
+/* Dots */
+
+.green_dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5ddb78;
+    display: inline-block;
+}
+.red_dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e62c67;
+    display: inline-block;
+}
+.grey_dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    display: inline-block;
+}
+
+/*Buttons*/
+
+.btn_addNewSchema{
+    background-color: transparent;
+    color: #6ac6ad;
+    border: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+.btn_addNewSchema:hover{
+    background-color: transparent!important;
+    color: #6ac6ad;
+}
+.btn_addNewSchema span{
+    text-decoration: underline;
+}
+.btn_SaveSegment{
+    background-color: #41b494;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #41b494;
+}
+.btn_Cancel{
+    background-color: #ffffff;
+    color: red;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    margin-left: 10px;
+}
+.btn-minus{
+    width: 40px;
+    font-size: 16px;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+    color: #5a5a5a;
+}
+.btn-minus:hover{
+    background-color: #8a8a8a;
+}
+
+
+
+
